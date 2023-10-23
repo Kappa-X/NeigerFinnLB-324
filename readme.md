@@ -13,9 +13,8 @@ Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Format
 2. Führen diesen Befehl aus, um pre-commit im Repository zu initialisieren:
    ```
    pre-commit install
-3. Nun können gewünschte Änderungen am Code vorgenommen werden, wobei jetzt beim Commiten folgende Aktionen automatisch durchgeführt werden:
-   Code wird durch Flake8 automatisch auf Stilfehler überprüft.
-   Auch wird der Code automatisch durch Black formatiert.
+3. Nun können gewünschte Änderungen am Code vorgenommen werden, wobei jetzt beim Commiten und Pushen automatisch Vorkehrungen getroffen werden.
+
 
 4. Wenn jetzt der `pre-commit` Fehler meldet, müssen diese vorher korrigiert werden, beovr man fortfahren kann. Auch können `pre-commit`s manuell ausgeführt werden, um die Formatierung und Tests zu erzwingen.
    ```
