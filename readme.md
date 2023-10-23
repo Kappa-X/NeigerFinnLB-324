@@ -5,33 +5,23 @@ Erklären Sie hier, wie man `pre-commit` installiert.
 
 # Automatisierte Code-Tests und -Formatierung
 
-Dieses Repository verwendet `pre-commit` für automatisierte Code-Tests und -Formatierung. Bevor Sie Änderungen committen, stellen Sie sicher, dass Sie die folgenden Schritte befolgen:
+Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Formatierung zu verwenden, müssen folgende Schritte befolgt werden:
 
-# Automatisierte Code-Tests und -Formatierung
-
-Dieses Repository verwendet `pre-commit` für automatisierte Code-Tests und -Formatierung. Bevor Sie Änderungen committen, stellen Sie sicher, dass Sie die folgenden Schritte befolgen:
-
-1. Installieren Sie `pre-commit` (wenn nicht bereits installiert):
-   ```bash
+1. Installiere `pre-commit` (wenn nicht bereits installiert):
+   ```
    pip install pre-commit
-Führen Sie den Befehl aus, um pre-commit in Ihrem Repository zu initialisieren:
+   
+2. Führen diesen Befehl aus, um pre-commit im Repository zu initialisieren:
+   ```
+   pre-commit install
 
-bash
-Copy code
-pre-commit install
-Sie können nun wie gewohnt Änderungen an Ihrem Code vornehmen. Beim Commit-Vorgang werden automatisch die folgenden Aktionen ausgeführt:
+3. Nun können gewünschte Änderungen am Code vorgenommen werden, wobei jetzt beim Commiten folgende Aktionen automatisch durchgeführt werden:
+   Code wird durch Flake8 automatisch auf Stilfehler überprüft.
+   Auch wird der Code automatisch durch Black formatiert.
 
-Ihr Code wird auf Stilfehler mit Flake8 überprüft.
-Falls nötig, wird Ihr Code automatisch mit Black formatiert.
-Wenn pre-commit Fehler meldet, korrigieren Sie diese, bevor Sie fortfahren. Sie können pre-commit manuell ausführen, um die Tests und die Formatierung zu erzwingen:
-
-bash
-Copy code
-pre-commit run --all-files
-Durch die Verwendung von pre-commit wird sichergestellt, dass der Code stets den definierten Stilrichtlinien entspricht und automatisch formatiert wird.
-
-
-
+4. Wenn jetzt der `pre-commit` Fehler meldet, müssen diese vorher korrigiert werden, beovr man fortfahren kann. Auch können `pre-commit`s manuell ausgeführt werden, um die Formatierung und Tests zu erzwingen.
+   ```
+   pre-commit run --all-files
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
