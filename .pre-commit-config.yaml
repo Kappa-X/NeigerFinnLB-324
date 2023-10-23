@@ -27,7 +27,7 @@ repos:
   - repo: local
     hooks:
       - id: test_app
-        name: test_app  # Hinzugefügter "name" Schlüssel
+        name: test_app 
         stages: [commit]
         types: [python]
         name: pytest-check
