@@ -28,7 +28,7 @@ repos:
     hooks:
       - id: test_app
         name: test_app 
-        stages: [commit]
+        stages: [push]
         types: [python]
         name: pytest-check
         entry: python -m pytest
