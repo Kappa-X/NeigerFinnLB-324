@@ -22,6 +22,5 @@ Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Format
 4. Wenn jetzt der `pre-commit` Fehler meldet, müssen diese vorher korrigiert werden, beovr man fortfahren kann. Auch können `pre-commit`s manuell ausgeführt werden, um die Formatierung und Tests zu erzwingen.
    ```
    pre-commit run --all-files
-
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
