@@ -10,11 +10,9 @@ Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Format
 1. Installiere `pre-commit` (wenn nicht bereits installiert):
    ```
    pip install pre-commit
-   
 2. Führen diesen Befehl aus, um pre-commit im Repository zu initialisieren:
    ```
    pre-commit install
-
 3. Nun können gewünschte Änderungen am Code vorgenommen werden, wobei jetzt beim Commiten folgende Aktionen automatisch durchgeführt werden:
    Code wird durch Flake8 automatisch auf Stilfehler überprüft.
    Auch wird der Code automatisch durch Black formatiert.
