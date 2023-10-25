@@ -3,7 +3,7 @@
 ## Aufgabe 2
 Erklären Sie hier, wie man `pre-commit` installiert.
 
-# Automatisierte Code-Tests und -Formatierung
+### Automatisierte Code-Tests und -Formatierung
 
 Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Formatierung zu verwenden, müssen folgende Schritte befolgt werden:
 
@@ -20,5 +20,5 @@ Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Format
    ```
    pre-commit run --all-files
 ## Aufgabe 4
-# Link zur Web App [Hier](https://neigerfinnlb324.azurewebsites.net)
+#### Link zur Web App [Hier](https://neigerfinnlb324.azurewebsites.net)
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
