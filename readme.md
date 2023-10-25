@@ -22,4 +22,4 @@ Um `pre-commit`in diesem Repository für automatiesierte  Code-Tests und -Format
 ## Aufgabe 4
 #### Link zur Web App [hier](https://neigerfinnlb324.azurewebsites.net)
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
-d
+
